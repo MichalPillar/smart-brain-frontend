@@ -11,7 +11,7 @@ import './App.css';
 import Clarifai from 'clarifai';
 
 const app = new Clarifai.App({
-  apiKey: '4a2df2e83aca4872a9b0535fced046a4',
+  apiKey: process.env.API_KEY,
 });
 
 const particlesOptions = {
